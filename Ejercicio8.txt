@@ -1,0 +1,9 @@
+Algoritmo Ejercicio8
+	salir <- ''
+	Repetir
+		numeroRandom <- azar(100)*5
+		Escribir 'El número random multiplo de 5 es: ',numeroRandom
+		Escribir 'Escriba << S >> para salir, si quiere más números random presione cualquier otra cosa'
+		Leer salir
+	Hasta Que (salir='S')
+FinAlgoritmo
